@@ -11983,6 +11983,76 @@ body {
   background-color: #141414;
 }
 
+.index .logo {
+  height: 50px;
+}
+.index .gappx {
+  padding-inline: 2px;
+}
+.index .netflix-nav {
+  height: 56px;
+  background: #141414;
+}
+.index .netflix-nav .nav-link {
+  color: #b3b3b3;
+  font-size: 0.9rem;
+  padding: 0 0.5rem;
+}
+.index .netflix-nav .nav-link:hover {
+  color: #fff;
+}
+.index .netflix-nav .nav-link.active {
+  color: #fff;
+}
+.index .nav-icon {
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 1;
+  opacity: 0.9;
+}
+.index .nav-icon:hover {
+  opacity: 1;
+}
+.index .kids-link {
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-size: 0.9rem;
+  padding: 0;
+}
+.index .avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 2px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.index .footer-netflix .footer-link {
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.index .footer-netflix .footer-link:hover {
+  text-decoration: underline;
+  color: #6c757d;
+}
+.index .footer-netflix .social-icon {
+  color: #6c757d;
+  font-size: 1.25rem;
+  line-height: 1;
+  text-decoration: none;
+  opacity: 0.9;
+}
+.index .footer-netflix .social-icon:hover {
+  opacity: 1;
+}
+.index .display-none-custom {
+  display: block !important;
+}
+.index #menu-space {
+  height: 200px;
+  display: none;
+}
+
 .edit-profile header {
   background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(20, 20, 20) 100%);
 }
@@ -11994,29 +12064,28 @@ body {
 .edit-profile h1, .edit-profile .h1 {
   font-size: calc(2.5rem + 1.5vw);
 }
-
-.form-control:disabled {
+.edit-profile .form-control:disabled {
   background-color: #666666;
 }
-
-.fs-7 {
+.edit-profile .fs-7 {
   font-size: 0.9rem;
 }
-
-.fs-8 {
+.edit-profile .fs-8 {
   font-size: 0.8rem;
 }
-
-.letter-spacing {
+.edit-profile .letter-spacing {
   letter-spacing: 1px;
 }
-
-#hover:hover {
+.edit-profile #hover:hover {
   background-color: #666666 !important;
 }
-
-.fitter {
+.edit-profile .fitter {
   width: -moz-fit-content;
   width: fit-content;
   margin-inline: auto;
+}
+.edit-profile .nav-link {
+  color: #b3b3b3;
+  font-size: 0.95rem;
+  padding: 0 0.55rem;
 }/*# sourceMappingURL=style.css.map */
