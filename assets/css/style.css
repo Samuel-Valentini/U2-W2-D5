@@ -12052,6 +12052,18 @@ body {
   height: 200px;
   display: none;
 }
+.index #right-arrow {
+  font-size: 3rem;
+  transform: translateX(100%);
+  pointer-events: auto;
+  display: inline-block;
+}
+.index #left-arrow {
+  font-size: 3rem;
+}
+.index .display-none-custom-2 {
+  display: none !important;
+}
 
 .edit-profile header {
   background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(20, 20, 20) 100%);

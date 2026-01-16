@@ -108,6 +108,21 @@ body {
         height: 200px;
         display: none;
     }
+
+    #right-arrow {
+        font-size: 3rem;
+        transform: translateX(100%);
+        pointer-events: auto;
+        display: inline-block;
+    }
+
+    #left-arrow {
+        font-size: 3rem;
+    }
+
+    .display-none-custom-2 {
+        display: none !important;
+    }
 }
 
 .edit-profile {
