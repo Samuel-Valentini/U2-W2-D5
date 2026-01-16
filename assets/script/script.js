@@ -15,19 +15,49 @@ const rightArrow = document.getElementById("right-arrow");
 const leftArrow = document.getElementById("left-arrow");
 
 rightArrow.addEventListener("click", () => {
-    console.log("click right");
-    const images = document.querySelectorAll(".firstturn");
+    const width = window.innerWidth;
 
-    images.forEach((image) => {
-        image.classList.toggle("display-none-custom-2");
-    });
+    if (width >= 768) {
+        const images = document.querySelectorAll(".firstturn");
+
+        images.forEach((image) => {
+            image.classList.toggle("display-none-custom-2");
+        });
+    } else if (width >= 576) {
+        const images = document.querySelectorAll(".firstturn-3");
+
+        images.forEach((image) => {
+            image.classList.toggle("display-none-custom-2");
+        });
+    } else {
+        const images = document.querySelectorAll(".firstturn-2");
+
+        images.forEach((image) => {
+            image.classList.toggle("display-none-custom-2");
+        });
+    }
 });
 
 leftArrow.addEventListener("click", () => {
-    console.log("click left");
-    const images = document.querySelectorAll(".firstturn");
+    const width = window.innerWidth;
 
-    images.forEach((image) => {
-        image.classList.toggle("display-none-custom-2");
-    });
+    if (width >= 768) {
+        const images = document.querySelectorAll(".firstturn");
+
+        images.forEach((image) => {
+            image.classList.toggle("display-none-custom-2");
+        });
+    } else if (width >= 576) {
+        const images = document.querySelectorAll(".firstturn-3");
+
+        images.forEach((image) => {
+            image.classList.toggle("display-none-custom-2");
+        });
+    } else {
+        const images = document.querySelectorAll(".firstturn-2");
+
+        images.forEach((image) => {
+            image.classList.toggle("display-none-custom-2");
+        });
+    }
 });
