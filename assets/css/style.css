@@ -12013,4 +12013,10 @@ body {
 
 #hover:hover {
   background-color: #666666 !important;
+}
+
+.fitter {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-inline: auto;
 }/*# sourceMappingURL=style.css.map */
