@@ -4,6 +4,8 @@
 
 // Include any default variable overrides here - START
 
+$headings-color-dark: #ffffff;
+
 // Include any default variable overrides here - END
 
 @import "./bs/variables";
@@ -20,3 +22,49 @@
 @import "./bs/bootstrap.scss";
 
 // Custom css
+
+body {
+    background-color: #141414;
+}
+
+.edit-profile {
+    header {
+        background: linear-gradient(
+            180deg,
+            rgba(0, 0, 0, 1) 0%,
+            rgba(20, 20, 20, 1) 100%
+        );
+
+        > img {
+            height: 50px;
+            margin-block: 9px;
+            margin-inline: 8px;
+        }
+    }
+
+    h1 {
+        font-size: calc(2.5rem + 1.5vw);
+    }
+}
+
+.form-control {
+    &:disabled {
+        background-color: #666666;
+    }
+}
+
+.fs-7 {
+    font-size: 0.9rem;
+}
+
+.fs-8 {
+    font-size: 0.8rem;
+}
+
+.letter-spacing {
+    letter-spacing: 1px;
+}
+
+#hover:hover {
+    background-color: #666666 !important;
+}
