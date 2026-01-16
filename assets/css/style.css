@@ -11988,6 +11988,7 @@ body {
 }
 .index .gappx {
   padding-inline: 2px;
+  padding-block: 2px;
 }
 .index .netflix-nav {
   height: 56px;
